@@ -22,3 +22,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.container{
+  width: 1190px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: solid red;
+}
