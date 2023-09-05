@@ -1,0 +1,74 @@
+/* header */
+.header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.70);
+}
+.header .container{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    max-width: 125px;
+    margin-right: 165px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-link{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+.header-link:hover{
+    color: #DE1616;
+}
+.header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+.header-button{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basket-button{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.basket-items{
+    width: 20px;
+    height: 20px;
+    background-color: #DE1616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    border-radius: 100%;
+}
+.basket-price{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+}

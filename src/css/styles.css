@@ -5,7 +5,25 @@
   |============================
 */
 @import url('./reset.css');
-/* @import url('./vite-promo.css'); */
+@import url('./repeating-elements/header.css');
+@import url('./repeating-elements/footer.css');
+@import url('./repeating-elements/panel.css');
+@import url('./repeating-elements/products.css');
+@import url('./about-us/about.css');
+@import url('./about-us/info.css');
+@import url('./blog/blogs.css');
+@import url('./blog/gallery.css');
+@import url('./blog/things.css');
+@import url('./contact-us/contacts.css');
+@import url('./main/backpack.css');
+@import url('./main/banner.css');
+@import url('./main/category.css');
+@import url('./main/deals.css');
+@import url('./main/hero.css');
+@import url('./main/news.css');
+@import url('./main/video.css');
+@import url('./privacy-policy/policy.css');
+@import url('./shop/shops.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
