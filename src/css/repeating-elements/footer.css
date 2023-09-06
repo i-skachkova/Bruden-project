@@ -1,0 +1,79 @@
+.footer{
+    border-top: 1px solid var(--grey, #7F7F7F);
+}
+.footer .container{
+    padding-top: 28px;
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+.footer-inst{
+    display: flex;
+    gap: 10px;
+
+    color: var(--black, #292A33);
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+.footer-text{
+    color: var(--black, #292A33);
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    max-width: 239px;
+}
+.footer-list{
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+.footer-list-title{
+    color: var(--black, #292A33);
+    font-family: 'Cormorant';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-link{
+    color: var(--black, #292A33);
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+.footer-link:hover{
+    color: var(--red, #DE1616);
+}
+.footer-adress{
+    color: var(--black, #292A33);
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    max-width: 160px;
+}
+
+.footer-line{
+    position: relative;
+    top: 75px;
+    height: 1px;
+    background: #7F7F7F;
+}
