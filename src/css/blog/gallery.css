@@ -1,0 +1,75 @@
+.gallery .container {
+    padding-bottom: 90px;
+}
+
+.gallery-title {    
+    font-family: 'Cormorant';
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.8px;
+text-transform: capitalize;
+color: #000;
+
+display: flex;
+
+justify-content: center;
+margin-bottom: 60px;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    row-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.gallery-img {
+    max-width: 360px;
+    max-height: 360px;
+}
+
+.gallery-button-list {  
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.gallery-button {
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+
+    display: block;
+}
+.button-first {
+    color: #FFF;
+padding: 6px 12px;
+
+max-width: 30px;
+max-height: 30px;
+flex-shrink: 0;
+background-color: var(--black, #292A33);
+}
+
+.button-second {
+padding: 6px 10px;
+
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+background-color: #FFF;
+}
+
+.button-third {
+width: 30px;
+height: 30px;
+background: #FFF;
+}
