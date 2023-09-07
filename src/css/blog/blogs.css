@@ -1,6 +1,7 @@
 .blogs {
     display: flex;
     padding-top: 30px;
+    padding-bottom: 90px;
 }
 
 .blogs-title {
@@ -110,3 +111,28 @@
 }
 
 /* button list  */
+
+.blogs-button-list {  
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.blogs-button {
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+
+    display: block;
+    padding: 6px 12px;
+    border: none;
+}
+
+.blogs-button:hover {
+    background-color: var(--black, #292A33);
+    color: #FFF;
+}
