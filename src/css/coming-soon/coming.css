@@ -1,0 +1,77 @@
+.coming-soon {
+padding-top: 15%;
+}
+
+.coming-soon .container {
+
+}
+
+.coming-title {
+    color: #000;
+font-family: 'Cormorant';
+font-size: 28px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.8px;
+text-transform: capitalize;
+text-align: center;
+display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coming-title::after {
+    content: '';
+          display: block;
+          height: 1px;
+          background: red;
+          width: 110px;
+          align-self: center;
+}
+
+.coming-subtitle {
+    color: #000;
+font-family: 'Josefin Sans';
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.1px;
+
+margin-top: 25px;
+text-align: center;
+}
+
+.coming-button {    
+    display: flex;
+    background-color: var(--black, #292A33);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.coming-button:hover{ 
+background-color: white;
+border-color: #292A33;
+}
+
+.coming-link {
+    color: #FFF;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    padding: 7px 14px;
+}
+
+.coming-link:hover {
+    color: var(--black, #292A33);
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
