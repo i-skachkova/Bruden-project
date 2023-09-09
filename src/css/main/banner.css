@@ -13,6 +13,12 @@ padding-right: 40px;
 padding-left: 40px;
 }
 
+.banner-box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner-description{
 color: #000;
 font-family: 'Josefin Sans';
@@ -52,4 +58,8 @@ margin-top: 32px;
 flex-shrink: 0;
 border: 1px solid #000;
 width: 864px;
+}
+
+.banner-button-position{
+    padding-left: 40px;
 }
