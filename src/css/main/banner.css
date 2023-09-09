@@ -1,0 +1,78 @@
+.banner-title{
+color: #000;
+font-family: 'Cormorant';
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.8px;
+text-transform: capitalize;
+padding-top: 40px;
+padding-bottom: 10px;
+padding-right: 40px;
+padding-left: 40px;
+}
+
+.banner-box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-description{
+color: #000;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%; 
+letter-spacing: 0.9px;
+max-width: 204px;
+padding-left: 40px;
+}
+
+.banner-button{
+display: flex;
+padding: 14px 28px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: var(--black, #292A33);
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 2.7px;
+text-transform: uppercase;
+background-color: white;
+margin-top: 32px;
+}
+
+.banner-button:hover{
+color: #FFF;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 3.6px;
+text-transform: uppercase;
+background: var(--black, #292A33);
+
+}
+
+.banner-container{
+    display: flex;
+}
+
+.banner-img{
+flex-shrink: 0;
+border: 1px solid #000;
+width: 864px;
+}
+
+.banner-button-position{
+    padding-left: 40px;
+}
