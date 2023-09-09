@@ -8,19 +8,33 @@ line-height: normal;
 letter-spacing: 2.8px;
 text-transform: capitalize;
 display: flex;
+text-align: center;
 justify-content: center;
 padding-bottom: 90px;
+flex-direction: column;
+gap: 10px;
+}
+
+.deal-title::after{
+content: '';
+display: block;
+height: 1px;
+background: red;
+width: 100px;
+align-self: center;
 }
 
 .deal-list{
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
 .deal-backpack{
-width: 260px;
+width: 290px;
 height: 340px;
 padding-right: 22px;
+
 }
 
 .star-list{
@@ -42,6 +56,9 @@ border-top: 1px solid var(--grey, #7F7F7F);
 border-right: 1px solid var(--grey, #7F7F7F);
 border-bottom: 1px solid var(--grey, #7F7F7F);
 background: #FFF;
+/* background-image: url(../../img/deal-of-the-week1.webp);
+background-repeat: no-repeat;
+background-position: -100%; */
 }
 
 .backpack-title{
@@ -67,6 +84,7 @@ letter-spacing: 1.1px;
 text-align: center;
 padding-top: 21px;
 }
+
 
 .deal-description{
 color: #000;
@@ -112,4 +130,30 @@ width: 20px;
 height: 20px;
 flex-shrink: 0;
 }
+
+.list-button{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.deal-button-chevron{
+    background-color: white;
+    border: white;
+}
+
+.deal-eye-list{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 66px;
+}
+
+.deal-button-eye{
+    display: flex;
+}
+
+
 
