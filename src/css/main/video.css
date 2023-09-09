@@ -47,4 +47,18 @@ display: flex;
 align-self: flex-end;
 margin-bottom: 40px;
 margin-right: 40px;
+text-align: center;
+}
+
+.video-button:hover{
+background: #292A33;
+color: #FFF;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 3.6px;
+text-transform: uppercase;
+text-align: center;
 }
