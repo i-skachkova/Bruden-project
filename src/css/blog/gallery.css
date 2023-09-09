@@ -14,7 +14,20 @@ color: #000;
 text-align: center;
 
 justify-content: center;
-margin-bottom: 60px;
+margin-bottom: 50px;
+
+display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery-title::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: red;
+    width: 100px;
+    align-self: center;
 }
 
 .gallery-list {
