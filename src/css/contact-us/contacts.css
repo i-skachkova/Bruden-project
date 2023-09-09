@@ -1,0 +1,99 @@
+.contacts{
+    display: flex;
+
+}
+
+.contacts-title {    
+    color: #000;
+    text-align: center;
+    font-family: 'Cormorant';
+    font-size: 42px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.2px;
+}
+
+.contacts-subtitle {
+    color: #000;
+        font-family: 'Cormorant';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.8px;
+        text-transform: capitalize;
+}
+
+.contacts-item-title {
+    color: #000;
+    font-family: 'Cormorant';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+}
+
+.contacts-info {
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.contacts-lable {
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.contacts-input-lable {
+    border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.contacts-button {
+    color: #FFF;
+    background: var(--black, #292A33);
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    display: flex;
+    padding: 14px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts-list{
+    gap: 30px;
+    display: table-cell;
+}
+
+.contacts-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+flex-direction: column;
+}
+
+
+
+.contact-input-lable{
+    width: 460px;
+    height: 180px;
+}
+
+.container-info{
+    display: flex;
+    gap: 40px;
+}
