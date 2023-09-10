@@ -1,0 +1,173 @@
+.deal-title{
+color: #000;
+font-family: 'Cormorant';
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 2.8px;
+text-transform: capitalize;
+display: flex;
+text-align: center;
+justify-content: center;
+padding-bottom: 90px;
+flex-direction: column;
+gap: 10px;
+}
+
+.deal-title::after{
+content: '';
+display: block;
+height: 1px;
+background: red;
+width: 100px;
+align-self: center;
+}
+
+.deal-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.deal-backpack{
+width: 290px;
+height: 340px;
+padding-right: 22px;
+
+}
+
+.star-list{
+display: flex;
+display: flex;
+justify-content: center;
+padding-top: 11px;
+}
+
+.deal-star{
+width: 15px;
+height: 15px;
+flex-shrink: 0;
+}
+
+.deal-item{
+display: flex;
+border-top: 1px solid var(--grey, #7F7F7F);
+border-right: 1px solid var(--grey, #7F7F7F);
+border-bottom: 1px solid var(--grey, #7F7F7F);
+background: #FFF;
+/* background-image: url(../../img/deal-of-the-week1.webp);
+background-repeat: no-repeat;
+background-position: -100%; */
+}
+
+.backpack-title{
+color: #000;
+text-align: center;
+font-family: 'Cormorant';
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.8px;
+padding-top: 20px;
+}
+
+.deal-price{
+color: #000;
+font-family: 'Josefin Sans';
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.1px;
+text-align: center;
+padding-top: 21px;
+}
+
+
+.deal-description{
+color: #000;
+font-family: 'Josefin Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.6; 
+letter-spacing: 0.7px;
+max-width: 246px;
+text-align: center;
+padding-left: 27px;
+padding-right: 27px;
+padding-bottom: 19px;
+padding-top: 24px;
+}
+
+.deal-button{
+display: flex;
+padding: 8px 14px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--black, #292A33);
+color: #FFF;
+font-family: 'Josefin Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 1.4px;
+text-transform: capitalize;
+border: #FFF;
+border: var(--black, #292A33);
+}
+
+.deal-button:hover{
+background: #FFF;
+color: #000;
+font-family: 'Josefin Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; 
+letter-spacing: 1.4px;
+text-transform: capitalize;
+border: black;
+}
+
+.deal-heart{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+
+.deal-eye{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+
+.list-button{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.deal-button-chevron{
+    background-color: white;
+    border: white;
+}
+
+.deal-eye-list{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 66px;
+}
+
+.deal-button-eye{
+    display: flex;
+}
+
+
+
