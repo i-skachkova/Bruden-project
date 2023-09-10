@@ -1,0 +1,77 @@
+.backpack-section .container{
+    padding-bottom: 90px;
+}
+.backpack-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.backpack-item:nth-child(1), .backpack-item:nth-child(2){
+    background-image: url(../../img/backpack-girl1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    width: 560px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+.backpack-item:nth-child(2){
+    background-image: url(../../img/backpack-girl2.webp);
+}
+.backpack-title{
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+.backpack-white-title{
+    color: #FFF;
+    text-align: right;
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.6; 
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    max-width: 232px;
+    align-self: flex-end;
+}
+.backpack-description{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.9px;
+    max-width: 204px;
+    margin-top: 10px;
+}
+.backpack-button{
+    padding: 14px 28px;
+    align-self: flex-end;
+    margin-top: auto;
+    background: transparent;
+
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+.first-button{
+    align-self: flex-start;
+    color: #292A33;
+    border: 1px solid #292A33;
+}
+.backpack-button:hover{
+    background-color: #292A33;
+    border-color: #292A33;
+}
+.first-button:hover{
+    background-color: #FFF;
+    border-color: #FFF;
+}
