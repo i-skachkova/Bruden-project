@@ -12,6 +12,7 @@ justify-content: center;
 padding-bottom: 90px;
 flex-direction: column;
 gap: 10px;
+padding-top: 90px;
 }
 
 .deal-title::after{
@@ -55,9 +56,6 @@ border-top: 1px solid var(--grey, #7F7F7F);
 border-right: 1px solid var(--grey, #7F7F7F);
 border-bottom: 1px solid var(--grey, #7F7F7F);
 background: #FFF;
-/* background-image: url(../../img/deal-of-the-week1.webp);
-background-repeat: no-repeat;
-background-position: -100%; */
 }
 
 .backpack-title{
