@@ -48,6 +48,7 @@ letter-spacing: 2.7px;
 text-transform: uppercase;
 background-color: white;
 margin-top: 32px;
+border: 1px solid var(--black, #292A33);
 }
 
 .banner-button:hover{
@@ -57,7 +58,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
-letter-spacing: 3.6px;
+letter-spacing: 2.7px;
 text-transform: uppercase;
 background: var(--black, #292A33);
 

@@ -128,7 +128,7 @@ font-weight: 400;
 line-height: 14px; 
 letter-spacing: 1.4px;
 text-transform: capitalize;
-border: black;
+outline: 1px solid var(--black, #292A33);
 }
 
 .deal-heart{
