@@ -1,80 +1,72 @@
-.category-title{
-color: #000;
-font-family: 'Cormorant';
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.8px;
-text-transform: capitalize;
-display: flex;
-justify-content: center;
-flex-direction: column;
-gap: 10px;
-text-align: center;
-padding-bottom: 60px;
+.category-title {
+  color: #000;
+  font-family: "Cormorant";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
-.category-title::after{
-    content: '';
-    display: block;
-    height: 1px;
-    background: red;
-    width: 100px;
-    align-self: center;
+.category-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: red;
+  width: 100px;
+  align-self: center;
 }
 
-.category-list{
-display: flex;
-padding-left: 140px;
-padding-right: 140px;
-padding-top: 0px;
-padding-bottom: 40px;
-justify-content: center;
-gap: 40px;
+.category-list {
+  display: flex;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  justify-content: center;
+  gap: 40px;
 }
 
-.category-description{
-color: #000;
-text-align: center;
-font-family: 'Cormorant';
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 2.4px;
-text-transform: capitalize;
-padding-top: 21px;
-padding-bottom: 20px;
+.category-description {
+  color: #000;
+  text-align: center;
+  font-family: "Cormorant";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: capitalize;
+  padding-top: 21px;
+  padding-bottom: 20px;
 }
 
-.category-item:hover{
-    box-shadow: 0px 6px 34px 0px rgba(0, 0, 0, 0.15); 
+.category-item:hover {
+  box-shadow: 0px 6px 34px 0px rgba(0, 0, 0, 0.15);
 }
 
-.category-button:hover{
-box-shadow: 0px 6px 34px 0px rgba(0, 0, 0, 0.15);
+.category-button:hover {
+  box-shadow: 0px 6px 34px 0px rgba(0, 0, 0, 0.15);
 }
 
-.category-button-list{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+.category-button-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
-.category-button{
-    background-color: white;
-    border: white;
+.category-button {
+  background-color: white;
+  border: white;
 }
 
-.category-button-item{
-    padding-bottom: 90px;
+.category-button-item {
+  padding-bottom: 90px;
 }
-
-
-
-
-
-
-
-
