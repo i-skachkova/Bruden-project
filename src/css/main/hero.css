@@ -61,9 +61,8 @@ color: #FFF;
 }
 
 .hero-button:hover{
-border: 1px solid var(--black, #292A33);
 color: var(--black, #292A33);
-font-family: Josefin Sans;
+font-family: 'Josefin Sans';
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
@@ -71,4 +70,6 @@ line-height: normal;
 letter-spacing: 2.7px;
 text-transform: uppercase;
 background-color: #FFF;
+padding: 14px 28px;
+outline: 1px solid var(--black, #292A33);
 }

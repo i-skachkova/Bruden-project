@@ -42,7 +42,6 @@ line-height: normal;
 letter-spacing: 2.7px;
 text-transform: uppercase;
 background: #FFF;
-border: #FFF;
 display: flex;
 align-self: flex-end;
 margin-bottom: 40px;
@@ -57,7 +56,7 @@ font-family: 'Josefin Sans';
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
-letter-spacing: 3.6px;
+letter-spacing: 2.7px;
 text-transform: uppercase;
 text-align: center;
 }

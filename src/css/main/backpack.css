@@ -20,12 +20,19 @@
 .backpack-item:nth-child(2){
     background-image: url(../../img/backpack-girl2.webp);
 }
-.backpack-title{
+.backpack-title {
+    color: #000;
     font-family: 'Cormorant';
     font-size: 28px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
     letter-spacing: 2.8px;
     text-transform: capitalize;
+    text-align: right;
+    align-self: flex-start;
+    max-width: 164px;
+    max-height: 34px;
 }
 .backpack-white-title{
     color: #FFF;
