@@ -4,146 +4,413 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Bruden-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Bruden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600&family=Josefin+Sans:wght@300;400;500&family=Lato:wght@700&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/Bruden-project/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/Bruden-project/assets/index-711c0474.css">
+    <link rel="stylesheet" href="/Bruden-project/assets/index-1f3849d4.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
 
     <!-- header -->
     <header class="header">
-    <a href="#" class="header-logo">
-        <img src="../../img/header-logo-min.jpg" alt="logo" class="header-logo-img">
-    </a>
-    <nav class="header-menu">
-        <ul class="header-nav">
-            <li class="header-nav-item">
-                <a href="#" class="header-link">Home</a>
+    <div class="container">
+        <a href="#" class="header-logo">
+            <img src="../../img/header-logo-min.jpg" alt="logo" class="header-logo-img">
+        </a>
+        <nav class="header-menu">
+            <ul class="header-nav">
+                <li class="header-nav-item">
+                    <a href="../../index.html" class="header-link">Home</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="../../shop.html" class="header-link">Shop</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="../../blog.html" class="header-link">Blog</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="../../about-us.html" class="header-link">About Us</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="../../contact-us.html" class="header-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header-buttons">
+            <li class="header-button">
+                <button class="header-button" type="button">
+                    <img src="../../img/header-instagram-min.jpg" alt="instagram" class="header-button-img">
+                </button>
             </li>
-            <li class="header-nav-item">
-                <a href="#" class="header-link">Shop</a>
+            <li class="header-button">
+                <button class="header-button" type="button">
+                    <img src="../../img/header-search-min.jpg" alt="search" class="header-button-img">
+                </button>
             </li>
-            <li class="header-nav-item">
-                <a href="#" class="header-link">Blog</a>
+            <li class="header-button">
+                <button class="header-button" type="button">
+                    <img src="../../img/header-account-min.jpg" alt="account" class="header-button-img">
+                </button>
             </li>
-            <li class="header-nav-item">
-                <a href="#" class="header-link">About Us</a>
-            </li>
-            <li class="header-nav-item">
-                <a href="#" class="header-link">Contact Us</a>
+            <li class="header-button">
+                <button class="header-button basket-button" type="button">
+                    <img src="../../img/header-basket-min.jpg" alt="basket" class="header-button-img">
+                    <div class="basket-items">
+                        <p class="basket-items-text">0</p>
+                    </div>
+                    <p class="basket-price">$ 00.00</p>
+                </button>
             </li>
         </ul>
-    </nav>
-    <ul class="header-buttons">
-        <li class="header-button">
-            <button class="header-button" type="button">
-                <img src="../../img/header-instagram-min.jpg" alt="instagram" class="header-button-img">
-            </button>
-        </li>
-        <li class="header-button">
-            <button class="header-button" type="button">
-                <img src="../../img/header-search-min.jpg" alt="search" class="header-button-img">
-            </button>
-        </li>
-        <li class="header-button">
-            <button class="header-button" type="button">
-                <img src="../../img/header-account-min.jpg" alt="account" class="header-button-img">
-            </button>
-        </li>
-        <li class="header-button">
-            <button class="header-button" type="button">
-                <img src="../../img/header-basket-min.jpg" alt="basket" class="header-button-img">
-                <p class="basket-items">0</p>
-                <p class="basket-price">$ 00.00</p>
-            </button>
-        </li>
-    </ul>
+    </div>
 </header> 
+
+    <!-- sections  -->
+    <section class="hero">
+<div class="container">
+<p class="hero-subtitle">Bags - sunglasses - belts</p>
+<h2 class="hero-title">Exclusive accessories for connoisseurs of style</h2>
+<p class="hero-description">Designed in Montreal, Bruden's Backpack embodies luxury fashion while keeping comfort and versatility</p>
+<button type="button" class="hero-button">SHOP NOW</button>
+</div>
+</section>
+
+    <section class="category">
+<div class="container">
+<h2 class="category-title">Shop By Category</h2>
+<ul class="category-list">
+  <li class="category-item">
+    <img class="category-img" src="../../img/category1.webp" alt="Bags" />
+    <p class="category-description">Bags</p>
+  </li>
+  <li class="category-item">
+    <img class="category-img" src="../../img/category2.webp" alt="Sunglasses" />
+    <p class="category-description">Sunglasses</p>
+  </li>
+  <li class="category-item"> 
+    <img class="category-img" src="../../img/category3.webp" alt="Belts" />
+    <p class="category-description">Belts</p>
+  </li>
+</ul>
+<ul class="category-button-list">
+  <li class="category-button-item">
+    <button type="button" class="category-button"> <img class="category-img" src="../../img/left-chevron.webp" alt="chevron"> </button>
+  </li>
+  <li class="category-button-item">
+    <button type="button" class="category-button"> <img class="category-img" src="../../img/right-chevron.webp" alt="chevron"> </button>
+  </li>
+</ul>
+</div>
+</section>
+
+    <section class="video">
+    <div class="container container-category">
+    <h3 class="video-title">An Addition To All Your Fits</h3>
+    <!-- <img class="video-img" src="../../img/video-img.webp" alt=""> -->
+    <button class="video-button" type="button">SHOP NOW</button>
+    </div>
+</section>
+    <section class="deals-section">
+  <div class="container deal-container">
+    <h2 class="deal-title">Deal of the week</h2>
+    <ul class="deal-list">
+      <li class="deal-item">
+        <img
+          class="deal-backpack"
+          src="../../img/deal-of-the-week1.webp"
+          alt="backpack"
+        />
+        <div class="deal-box">
+          <h3 class="backpack-title">Fiery Red Bruden Backpack</h3>
+          <ul class="star-list">
+            <li>
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+          </ul>
+          <p class="deal-price">C$ 99.99</p>
+          <p class="deal-description">
+            Bruden's Backpack will give all your essentials a home while still
+            feeling comfortable and having a...
+          </p>
+          <div class="deal-button-eye">
+          <button class="deal-button" type="button">Add To Cart</button>
+          <ul class="deal-eye-list">
+            <li class="deal-eye-item">
+          <img class="deal-heart" src="../../img/heart.webp" alt="heart" />
+          </li>
+          <li class="deal-eye-item">
+          <img class="deal-eye" src="../../img/eye.webp" alt="eye" />
+          </li>
+          </ul>
+          </div>
+        </div>
+      </li>
+      <li class="deal-item">
+        <img
+          class="deal-backpack"
+          src="../../img/deal-of-the-week2.webp"
+          alt="backpack"
+        />
+        <div class="deal-box">
+          <h3 class="backpack-title">Bruden's Backpack</h3>
+          <ul class="star-list">
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+            <li class="star-item">
+              <img class="deal-star" src="../../img/star.webp" alt="star" />
+            </li>
+          </ul>
+          <p class="deal-price">C$ 66.49</p>
+          <p class="deal-description">
+            Bruden's Backpack will give all your essentials a home while still
+            feeling comfortable and having a...
+          </p>
+            <div class="deal-button-eye">
+          <button class="deal-button" type="button">Add To Cart</button>
+          <ul class="deal-eye-list">
+            <li class="deal-eye-item">
+          <img class="deal-heart" src="../../img/heart.webp" alt="heart" />
+          </li>
+          <li class="deal-eye-item">
+          <img class="deal-eye" src="../../img/eye.webp" alt="eye" />
+          </li>
+          </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="list-button">
+      <li class="deal-button-chevron">
+        <button class="deal-button-chevron" type="button">
+          <img class="button-img" src="../../img/left-chevron.webp" alt="left-chevron" />
+        </button>
+      </li>
+      <li class="deal-button-chevron">
+        <button class="deal-button-chevron" type="button">
+          <img class="button-img" src="../../img/right-chevron.webp" alt="right-chevron" />
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="backpack-section">
+  <div class="container">
+    <ul class="backpack-list">
+      <li class="backpack-item">
+        <h2 class="backpack-title">New arrival</h2>
+        <p class="backpack-description">
+          Exclusive Denisha Bruce Red Backpack Launch
+        </p>
+        <button class="backpack-button first-button" type="button">SHOP NOW</button>
+      </li>
+      <li class="backpack-item">
+        <h2 class="backpack-white-title">An addition to all your fits</h2>
+        <button class="backpack-button" type="button">SHOP NOW</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="news-section">
+  <div class="container">
+    <h2 class="news-title">Latest News</h2>
+    <ul class="news-list">
+      <li class="news-item">
+        <p class="news-date">April 3 - 2 min read</p>
+        <div class="news-card-box">
+          <img class="news-img" src="../../img/latest-news1.webp" alt="girl" />
+          <h3 class="card-title">Bruden Mode Is Taking Care of Women</h3>
+          <p class="card-description">
+            Bruden Mode in Montreal has taken a lot of time and put a lot of effort
+            into helping women not only look great but to be more healthy.
+          </p>
+          <a class="read-more" href="../../../src/coming-soon.html">Read more</a>
+        </div>
+      </li>
+      <li class="news-item">
+        <p class="news-date">Mar 3 - 2 min read</p>
+        <div class="news-card-box">
+          <img class="news-img" src="../../img/latest-news2.webp" alt="girl" />
+          <h3 class="card-title">Bruden Mode Accessories</h3>
+          <p class="card-description">
+            Finding the perfect little thing that compliments your wardrobe can give
+            you the confidence and the feeling you love to be your best.
+          </p>
+          <a class="read-more" href="../../../src/coming-soon.html">Read More</a>
+        </div>
+      </li>
+      <li class="news-item">
+        <p class="news-date">Jan 4 - 3 min read</p>
+        <div class="news-card-box">
+          <img class="news-img" src="../../img/latest-news3.webp" alt="girl" />
+          <h3 class="card-title">Different Types of Backpacks</h3>
+          <p class="card-description">
+            Different backpacks do different things and serve various purposes.
+          </p>
+          <a class="read-more" href="../../../src/coming-soon.html">Read More</a>
+        </div>
+      </li>
+    </ul>
+      <ul class="news-button-list">
+      <li class="news-button-item">
+        <button type="button" class="news-button">
+          <img
+            class="news-button-img"
+            src="../../img/left-chevron.webp"
+            alt="chevron"
+          />
+        </button>
+      </li>
+      <li news-button-item>
+        <button type="button" class="news-button">
+          <img
+            class="news-button-img"
+            src="../../img/right-chevron.webp"
+            alt="chevron"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="banner-section">
+  <div class="container banner-container">
+    <div class="banner-box">
+  <h1 class="banner-title">Fits Any Style</h1>
+  <p class="banner-description">Precise fit on sliding buckle with no holes</p>
+  <div class="banner-button-position">
+  <button class="banner-button" type="button">SHOP NOW</button>
+  </div>
+  </div>
+  <img class="banner-img" src="../../img/belt.webp" alt="belt" />
+  </div>
+</section>
+
+    <section class="products">
+  <div class="container">
+  <h2 class="products-title">Special products</h2>
+  <p class="products-description">Register now to get updates on promotions</p>
+  <form class="form-products">
+  <input title="enter your email" class="products-input" type="text" />
+  <button class="products-button" type="submit">SUBSCRIBE</button>
+</form>
+</div>
+</section>
+
 
     <!-- footer -->
     <footer class="footer">
-    <div class="footer-box">
-        <a href="#" class="footer-logo">
-            <img src="../../img/header-logo-min.jpg" alt="logo" class="footer-logo-img">
-        </a>
-        <a href="#" class="footer-inst">
-            <img src="../../img/header-instagram-min.jpg" alt="instagram" class="footer-inst-img">
-            @brudenmtl
-        </a>
-        <p class="footer-text">©2022 by Bruden Mode. Proudly created with </p>
+    <div class="footer-line"></div>
+    <div class="container">
+        <div class="footer-box">
+            <a href="#" class="footer-logo">
+                <img src="../../img/header-logo-min.jpg" alt="logo" class="footer-logo-img">
+            </a>
+            <a href="#" class="footer-inst">
+                <img src="../../img/header-instagram-min.jpg" alt="instagram" class="footer-inst-img">
+                @brudenmtl
+            </a>
+            <p class="footer-text">©2022 by Bruden Mode. Proudly created with </p>
+        </div>
+        <ul class="footer-list">
+            <li class="footer-item">
+                <h2 class="footer-list-title">Shop</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Bags</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Belts</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Sunglasses</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer-item">
+                <h2 class="footer-list-title">Account</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Orders</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Checkout</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">My Account</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Account Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer-item">
+                <h2 class="footer-list-title">Information</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">FAQ’s</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../contact-us.html" class="footer-link">Contact Us</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../privacy-policy.html" class="footer-link">Privacy Policy</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Return policy</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Shipping Policy</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="../../coming-soon.html" class="footer-link">Terms and Conditions</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer-item">
+                <h2 class="footer-list-title">Contacts</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a href="mailto:email@mail.com" class="footer-link">email@mail.com</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="tel:+10000000000" class="footer-link">+1-000-000-0000</a>
+                    </li>
+                    <li class="footer-menu-item">
+                    <address class="footer-adress">Bld, Street, town, ZIP Code </address>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
-    <ul class="footer-list">
-        <li class="footer-item">
-            <h2 class="footer-list-title">Shop</h2>
-            <ul class="footer-menu">
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Bags</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Belts</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Sunglasses</a>
-                </li>
-            </ul>
-        </li>
-        <li class="footer-item">
-            <h2 class="footer-list-title">Account</h2>
-            <ul class="footer-menu">
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Orders</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Checkout</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">My Account</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Account Details</a>
-                </li>
-            </ul>
-        </li>
-        <li class="footer-item">
-            <h2 class="footer-list-title">Information</h2>
-            <ul class="footer-menu">
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">FAQ’s</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Contact Us</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Privacy Policy</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Return policy</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Shipping Policy</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#" class="footer-link">Terms and Conditions</a>
-                </li>
-            </ul>
-        </li>
-        <li class="footer-item">
-            <h2 class="footer-list-title">Contacts</h2>
-            <ul class="footer-menu">
-                <li class="footer-menu-item">
-                    <a href="mailto:email@mail.com" class="footer-link">email@mail.com</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="tel:+10000000000" class="footer-link">+1-000-000-0000</a>
-                </li>
-                <li class="footer-menu-item">
-                   <address class="footer-adress">Bld, Street, town, ZIP Code </address>
-                </li>
-            </ul>
-        </li>
-    </ul>
 </footer>
     
   </body>
